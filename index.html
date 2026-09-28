@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CarRacing RL Competition</title>
+<style>
+:root { --bg:#f7f7f5; --panel:#fff; --text:#1d1d1b; --dim:#6b6b66; --line:#e4e3de;
+        --accent:#2f6fde; --ok:#1f8a4c; --warn:#a86b00; --err:#c23b2a; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg:#161615; --panel:#1f1f1d; --text:#ecebe6; --dim:#9a9990; --line:#33332f;
+          --accent:#7aa7ff; --ok:#5cc98a; --warn:#e0a53a; --err:#ff7b6b; } }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--text);
+       font:15px/1.5 system-ui,-apple-system,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif; }
+main { max-width:860px; margin:0 auto; padding:32px 16px 64px; }
+h1 { font-size:24px; margin:0 0 4px; }
+h2 { font-size:17px; margin:36px 0 10px; }
+.meta { color:var(--dim); font-size:13px; }
+.card { background:var(--panel); border:1px solid var(--line); border-radius:10px; overflow-x:auto; }
+table { width:100%; border-collapse:collapse; }
+th, td { padding:9px 12px; text-align:left; border-bottom:1px solid var(--line); white-space:nowrap; }
+th { font-size:12px; color:var(--dim); font-weight:600; }
+tr:last-child td { border-bottom:none; }
+td.num { text-align:right; font-variant-numeric:tabular-nums; }
+td.rank { font-weight:700; color:var(--accent); width:48px; }
+.dim { color:var(--dim); }
+.ok { color:var(--ok); font-weight:600; } .warn { color:var(--warn); font-weight:600; }
+.err { color:var(--err); font-weight:600; }
+td:last-child { white-space:normal; }
+ul { color:var(--dim); font-size:13px; padding-left:18px; }
+</style></head>
+<body><main>
+<h1>CarRacing RL Competition</h1>
+<div class="meta">마지막 업데이트 2026-09-28 18:01 · 공개 리더보드 (비공개 트랙 10개 평균)</div>
+
+<h2>순위</h2>
+<div class="card"><table>
+<thead><tr><th>#</th><th>참가자</th><th style="text-align:right">점수</th><th></th><th style="text-align:right">채점 수</th><th>최고 점수 제출 시각</th></tr></thead>
+<tbody>
+<tr><td colspan='6' class='dim'>아직 채점된 제출물이 없습니다.</td></tr>
+</tbody></table></div>
+
+<h2>이번 채점 결과</h2>
+<div class="card"><table>
+<thead><tr><th>참가자</th><th>제출 시각</th><th>결과</th></tr></thead>
+<tbody>
+<tr><td colspan='3' class='dim'>이번 채점 주기에 새 제출물이 없었습니다.</td></tr>
+</tbody></table></div>
+
+<ul>
+<li>매일 새벽 일괄 채점, 오전 10시에 갱신됩니다. 하루에 가장 최근 제출물 1개만 채점됩니다.</li>
+<li>점수는 학생별 최고 점수입니다. 최종 순위는 별도의 비공개 트랙으로 다시 매깁니다.</li>
+<li>오류가 나면 <code>python check_submission.py --onnx &lt;파일&gt;</code>로 먼저 확인하세요.</li>
+</ul>
+</main></body></html>
