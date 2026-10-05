@@ -27,28 +27,41 @@ td.rank { font-weight:700; color:var(--accent); width:48px; }
 .err { color:var(--err); font-weight:600; }
 td:last-child { white-space:normal; }
 ul { color:var(--dim); font-size:13px; padding-left:18px; }
+li { margin-bottom:6px; }
+.en { color:var(--dim); font-weight:400; }
+h2 .en { font-size:14px; margin-left:6px; }
+th .en { display:block; font-size:11px; }
+li .en { display:block; }
 </style></head>
 <body><main>
 <h1>CarRacing RL Competition</h1>
-<div class="meta">마지막 업데이트 2026-09-28 18:01 · 공개 리더보드 (비공개 트랙 10개 평균)</div>
+<div class="meta">마지막 업데이트 2026-10-05 20:18 · 공개 리더보드 (비공개 트랙 10개 평균)<br>
+Last updated 2026-10-05 20:18 · Public leaderboard (mean over 10 hidden tracks)</div>
 
-<h2>순위</h2>
+<h2>순위<span class="en">Ranking</span></h2>
 <div class="card"><table>
-<thead><tr><th>#</th><th>참가자</th><th style="text-align:right">점수</th><th></th><th style="text-align:right">채점 수</th><th>최고 점수 제출 시각</th></tr></thead>
+<thead><tr><th>#</th><th>참가자<span class="en">Participant</span></th>
+<th style="text-align:right">점수<span class="en">Score</span></th><th></th>
+<th style="text-align:right">채점 수<span class="en">Graded</span></th>
+<th>최고 점수 제출 시각<span class="en">Best submission time</span></th></tr></thead>
 <tbody>
-<tr><td colspan='6' class='dim'>아직 채점된 제출물이 없습니다.</td></tr>
+<tr><td colspan='6' class='dim'>아직 채점된 제출물이 없습니다. <span class='en'>No graded submissions yet.</span></td></tr>
 </tbody></table></div>
 
-<h2>이번 채점 결과</h2>
+<h2>이번 채점 결과<span class="en">Latest grading results</span></h2>
 <div class="card"><table>
-<thead><tr><th>참가자</th><th>제출 시각</th><th>결과</th></tr></thead>
+<thead><tr><th>참가자<span class="en">Participant</span></th><th>제출 시각<span class="en">Submitted</span></th>
+<th>결과<span class="en">Result</span></th></tr></thead>
 <tbody>
-<tr><td colspan='3' class='dim'>이번 채점 주기에 새 제출물이 없었습니다.</td></tr>
+<tr><td colspan='3' class='dim'>이번 채점 주기에 새 제출물이 없었습니다. <span class='en'>No new submissions in this grading cycle.</span></td></tr>
 </tbody></table></div>
 
 <ul>
-<li>매일 새벽 일괄 채점, 오전 10시에 갱신됩니다. 하루에 가장 최근 제출물 1개만 채점됩니다.</li>
-<li>점수는 학생별 최고 점수입니다. 최종 순위는 별도의 비공개 트랙으로 다시 매깁니다.</li>
-<li>오류가 나면 <code>python check_submission.py --onnx &lt;파일&gt;</code>로 먼저 확인하세요.</li>
+<li>매일 새벽 일괄 채점, 오전 10시에 갱신됩니다. 하루에 가장 최근 제출물 1개만 채점됩니다.
+<span class="en">Submissions are graded in a batch every night and the leaderboard is updated at 10 AM. Only your most recent submission each day is graded.</span></li>
+<li>점수는 학생별 최고 점수입니다. 최종 순위는 별도의 비공개 트랙으로 다시 매깁니다.
+<span class="en">Each participant's best score is shown. The final ranking is recomputed on a separate set of hidden tracks.</span></li>
+<li>오류가 나면 <code>python check_submission.py --onnx &lt;파일&gt;</code>로 먼저 확인하세요.
+<span class="en">If you get an error, check your file first with <code>python check_submission.py --onnx &lt;file&gt;</code>.</span></li>
 </ul>
 </main></body></html>
