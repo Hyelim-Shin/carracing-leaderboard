@@ -1,10 +1,16 @@
 {
-  "updated": "2026-10-13 00:17",
+  "updated": "2026-10-28 10:51",
   "ranking": [
     {
       "rank": 1,
       "team": "INFINITI",
       "public": 918.2,
+      "submissions": 1
+    },
+    {
+      "rank": 2,
+      "team": "HyunDrive",
+      "public": 858.8,
       "submissions": 1
     }
   ]
