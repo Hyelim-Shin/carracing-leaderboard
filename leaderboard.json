@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02 00:03",
+  "updated": "2026-11-03 00:05",
   "ranking": [
     {
       "rank": 1,
@@ -9,14 +9,14 @@
     },
     {
       "rank": 2,
-      "team": "Reinforcement_material",
-      "public": 893.9,
-      "submissions": 3
+      "team": "HyunDrive",
+      "public": 908.7,
+      "submissions": 5
     },
     {
       "rank": 3,
-      "team": "HyunDrive",
-      "public": 881.1,
+      "team": "Reinforcement_material",
+      "public": 893.9,
       "submissions": 4
     }
   ]
