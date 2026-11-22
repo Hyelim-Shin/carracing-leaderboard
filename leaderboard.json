@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21 00:00",
+  "updated": "2026-11-22 00:05",
   "ranking": [
     {
       "rank": 1,
@@ -11,7 +11,7 @@
       "rank": 2,
       "team": "Reinforcement_material",
       "public": 920.6,
-      "submissions": 7
+      "submissions": 8
     },
     {
       "rank": 3,
@@ -29,6 +29,12 @@
       "rank": 5,
       "team": "dirhj",
       "public": 862.2,
+      "submissions": 1
+    },
+    {
+      "rank": 6,
+      "team": "울랄라",
+      "public": 848.0,
       "submissions": 1
     }
   ]
