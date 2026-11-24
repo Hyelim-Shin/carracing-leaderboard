@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23 00:04",
+  "updated": "2026-11-24 00:05",
   "ranking": [
     {
       "rank": 1,
@@ -23,7 +23,7 @@
       "rank": 4,
       "team": "감자돌이",
       "public": 906.1,
-      "submissions": 3
+      "submissions": 4
     },
     {
       "rank": 5,
@@ -35,6 +35,12 @@
       "rank": 6,
       "team": "울랄라",
       "public": 848.0,
+      "submissions": 1
+    },
+    {
+      "rank": 7,
+      "team": "Choloneta",
+      "public": 826.2,
       "submissions": 1
     }
   ]
